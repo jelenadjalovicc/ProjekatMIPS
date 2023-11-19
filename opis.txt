@@ -1,0 +1,12 @@
+Jelena Đalović 643/2020
+
+Rešenje prvog projektnog zadataka:
+Moje ime je Jelena Đalović, u mom imenu imam 6 samoglasnika i 7 suglasnika, i ukupno 13 slova (13%6=1), prema zadatom kriterijumu radim 
+PB1 pin, i to prikazujemo na semi u Proteusu 8 Pro,gde sam dodala i crvenu diodu, potom pokrecemo projekar u programu STM32CudeIDE, gde glavni kod prilagođavam za
+zadati zadatak na sledeći način:
+U mom imemu imamo 6 slova, a u prezimenu 7, prema tome dodajem brojac i 2 while petlje, 
+prva while petlja: dioda će svetleti 6ms sa pauzom od 7ms, i postupak će se ponoviti 6 puta, neispunjen uslov while petlje resetuje brojač 
+na nulu i time prelazimo na drugi slucaj.
+druga while petlja: dioda će svetleti 7ms sa pauzom od 6ms, i postupak će se ponoviti 7 puta, neispunjen uslov while petlje ostavlja diodu da svetli.
+
+
